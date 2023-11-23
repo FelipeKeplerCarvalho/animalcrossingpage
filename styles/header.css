@@ -1,0 +1,42 @@
+header {
+    display: flex;
+    align-items: center;
+    gap: 64px;
+    width: 100%;
+    max-width: 1440px;  
+    padding-top: 34px;
+    z-index: -1;
+}
+
+header img{
+    width: 90px;
+    height: auto;
+}
+
+.navigation {
+    display: flex;
+    gap: 48px;
+    list-style: none;
+}
+.navigation_link {
+    font-size: 17px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.social {
+    display: flex;
+    margin-left: auto;
+    gap: 34px;
+}
+.social svg {
+    width: 40px;
+    height: 40px;
+    opacity: 0.6;
+}
+.social svg:hover {
+   opacity: 1;
+   transform: translateY(-5px);
+   cursor: pointer;
+}
